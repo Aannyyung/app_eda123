@@ -1,5 +1,6 @@
 print("tst")
 print("ddd")
 import streamlit as st
-st.write("dfghg")
-st.textinput()
+st.text("dfghg")
+a=st.text_input()
+st.text(a)
